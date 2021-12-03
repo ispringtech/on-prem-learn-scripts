@@ -1,16 +1,16 @@
 ## Инструкция по использованию скрипта
 
-#### Установка git
-Для начала необходимо залогиниться на одной из нод, например на мастере. После, если нет гита, то выполнить установку:
-
-```sudo apt install git```
-
-Если пакет есть, то можно пропустить шаг
 
 #### Получение скрипта
-После того как установили гит, необходимо выполнить клонирование репозитория:
+Для начала необходимо залогиниться на одной из нод, например на мастере и получить скрипт выполнив команду:
 
-```git clone https://github.com/ispringtech/on-prem-learn-scripts.git; cd on-prem-learn-scripts```
+```wget https://raw.githubusercontent.com/ispringtech/on-prem-learn-scripts/main/check-hosts.sh -O check-hosts.sh; chmod +x check-hosts.sh```
+
+
+#### Получение конфига
+После необходимо выполнить команду для получения конфига:
+
+```wget https://raw.githubusercontent.com/ispringtech/on-prem-learn-scripts/main/config -O config```
 
 И перейти к его настройке
 
