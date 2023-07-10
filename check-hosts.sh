@@ -29,6 +29,8 @@ get_sys_info(){
     ssh_connection_str "echo -n 'CPU Frequency:'; grep MH /proc/cpuinfo | uniq | cut -d ':' -f 2;"
     #get ram
     ssh_connection_str "free -h | grep Mem" | awk '{print "RAM: " $2}'
+    #get swap
+    ssh_connection_str "free -h | grep Swap" | awk '{print "Swap: " $2}'
     #get hdd
     ssh_connection_str "df -H / | tail -1" | awk '{print "HDD: " $2}'
     #get network connect
