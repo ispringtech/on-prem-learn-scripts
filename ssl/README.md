@@ -2,7 +2,7 @@
 
 
 #### Получение скрипта
-Для начала необходимо залогиниться на на мастере ноде и получить скрипт выполнив команду:
+Для начала необходимо залогиниться на мастере ноде и получить скрипт выполнив команду:
 
 ```wget https://raw.githubusercontent.com/ispringtech/on-prem-learn-scripts/main/ssl/ssl-checker.sh -O ssl-checker.sh; chmod +x ssl-checker.sh```
 

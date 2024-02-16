@@ -4,7 +4,7 @@
 #### Получение скрипта
 Для начала необходимо залогиниться на одной из нод, например на мастере и получить скрипт выполнив команду:
 
-```wget https://raw.githubusercontent.com/ispringtech/on-prem-learn-scripts/main/check-hosts.sh -O check-hosts.sh; chmod +x check-hosts.sh```
+```wget https://raw.githubusercontent.com/VasiliyRoss/on-prem-learn-scripts/main/check-hosts.sh -O check-hosts.sh; chmod +x check-hosts.sh```
 
 
 #### Получение конфига
